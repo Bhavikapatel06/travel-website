@@ -1,0 +1,119 @@
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent overlay for readability */
+  color: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8; /* Soft light blue */
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #ff6f61; /* Vibrant coral */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #ffb347, #ffcc33); /* Warm gradient */
+  color: white;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Sections */
+section {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+/* Beach Section */
+#beach {
+  background-color: #c3f0ca; /* Soft green */
+}
+
+/* Temple Section */
+#temple {
+  background-color: #fce1f4; /* Soft pink */
+}
+
+/* Country Section */
+#country {
+  background-color: #cbe4f9; /* Soft blue */
+}
+
+/* Images */
+img {
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e55b50;
+}
